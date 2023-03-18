@@ -2,5 +2,17 @@
     "idf.adapterTargetName": "esp32s2",
     "idf.openOcdConfigs": [
         "board/esp32s2-bridge.cfg"
-    ]
+    ],
+    "idf.portWin": "COM7",
+    "files.associations": {
+        "esp_wnm.h": "c",
+        "string.h": "c",
+        "esp_mbo.h": "c",
+        "freertos.h": "c",
+        "stdlib.h": "c",
+        "corecrt_search.h": "c",
+        "corecrt_wstdlib.h": "c",
+        "esp_rrm.h": "c"
+    },
+    "idf.espIdfPathWin": "C:\\Users\\timsn\\esp_4_4_4\\esp-idf"
 }
